@@ -6,13 +6,9 @@ public class StringComparator {
 
 	public static void main(String[] args) {
 		
-		int a;
-		
-		
+		int a;		
 		String b = "ONE" , c = "TWO" , d = "THREE", e ="FOUR" ,f = "FIVE" , g="SIX" , h="SEVEN" ,i="EIGHT" ,j="NINE" ;
-		
-		
-		
+			
 		Scanner Scanner = new Scanner(System.in);
 
 		System.out.println("Enter a integer:");
@@ -42,8 +38,6 @@ public class StringComparator {
 			else
 			{
 				System.out.println("The input integer is OTHER");
-			}
-			
-		
+			}					
 	}
 }

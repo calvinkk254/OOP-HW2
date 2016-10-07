@@ -10,13 +10,10 @@ public class KeyboardScanner {
 		int a ;
 		float b;
 		String c;
-				
 		float d;
-		
-		
-	
+			
 		Scanner Scanner = new Scanner(System.in);
-
+		
 		System.out.println("Enter a integer:");
 		a = Scanner.nextInt();
 		System.out.println("Enter a float point number:");
@@ -25,10 +22,7 @@ public class KeyboardScanner {
 		c = Scanner.next();
 		
 		d = a*b ;
-		
 		System.out.printf("Hi "+ c +", the mutiplication of " + a + " and " + b + " is " + "%E" , d);
 	
-	
-
 	}
 }

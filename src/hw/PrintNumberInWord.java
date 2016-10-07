@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class PrintNumberInWord {
 
 	public static void main(String[] args) {
-		
-		
+				
 		String a;
 		String b;
 		
@@ -24,14 +23,9 @@ public class PrintNumberInWord {
 		System.out.println(c);
 		
 		if(c)
-		{
-		System.out.println("the two string are the same" );
-		}
+		{		System.out.println("the two string are the same" );		}
 		else
-		{
-		System.out.println("the two string are not the same" );	
-		}
-	
+		{		System.out.println("the two string are not the same" );			}
 	}
 
 	private static boolean equalsIgnoreCase(String string) {
