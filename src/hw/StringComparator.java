@@ -14,7 +14,7 @@ public class StringComparator {
 		System.out.println("Enter a integer:");
 		a = Scanner.nextInt();
 		
-		if(a<10)		
+		if(a<10 && a>0)		
 			{
 			if(a==1)
 				System.out.println("The input integer is \"" +b +"\"");
