@@ -1,43 +1,29 @@
 package hw;
 
-import java.util.Scanner;
+	import java.util.Scanner;
 
-public class StringComparator {
+	public class StringComparator {
 
-	public static void main(String[] args) {
-		
-		int a;		
-		String b = "ONE" , c = "TWO" , d = "THREE", e ="FOUR" ,f = "FIVE" , g="SIX" , h="SEVEN" ,i="EIGHT" ,j="NINE" ;
+		public static void main(String[] args) { 
 			
-		Scanner Scanner = new Scanner(System.in);
+			int a;		
+			String []b = { "ONE" , "TWO" , "THREE" , "FOUR" , "FIVE" , "SIX" , "SEVEN" , "EIGHT" , "NINE" };
+				
+			Scanner Scanner = new Scanner(System.in);
 
-		System.out.println("Enter a integer:");
-		a = Scanner.nextInt();
-		
-		if(a<10 && a>0)		
-			{
-			if(a==1)
-				System.out.println("The input integer is \"" +b +"\"");
-			if(a==2)
-				System.out.println("The input integer is \"" +c +"\"");
-			if(a==3)
-				System.out.println("The input integer is \"" +d +"\"");
-			if(a==4)
-				System.out.println("The input integer is \"" +e +"\"");
-			if(a==5)
-				System.out.println("The input integer is \"" +f +"\"");
-			if(a==6)
-				System.out.println("The input integer is \"" +g +"\"");
-			if(a==7)
-				System.out.println("The input integer is \"" +h +"\"");
-			if(a==8)
-				System.out.println("The input integer is \"" +i +"\"");
-			if(a==9)
-				System.out.println("The input integer is \"" +j +"\"");
+			System.out.println("Enter a integer:");
+			a = Scanner.nextInt();
+			
+			
+			
+			if(a<10 && a>0)		
+				{
+				a--;
+				System.out.println("your number equal to: " + b[a]);
 				}
-			else
-			{
-				System.out.println("The input integer is OTHER");
-			}					
+				else
+				{
+					System.out.println("The input integer is OTHER");
+				}					
+		}
 	}
-}
